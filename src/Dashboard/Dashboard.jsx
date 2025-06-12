@@ -1,8 +1,13 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Navbar from "../components/navbar";
+import Departemen from "../components/departemen1";
+import ProgramKerjaKami from "../components/programkerja";
+import GaleriKegiatan from "../components/galeri";
+import Footer from "../components/footer";
 
 const imageList = [
   "/foto/kegiatan 1.jpg",
@@ -27,10 +32,11 @@ const Dashboard = () => {
     featureRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const [showModal, setShowModal] = useState(false);
+
 
   return (
     <div className="font-sans text-gray-800 overflow-hidden">
+      <Navbar />
       {/* Hero Section */}
       <section className="w-screen h-screen relative">
         <Slider {...settings}>
@@ -96,22 +102,11 @@ const Dashboard = () => {
           </div>
         </div>
       </section>
-
-      
-
-      {/* CTA Section */}
-      <section className="py-16 bg-yellow-500 text-white text-center px-6">
-        <h3 className="text-3xl font-bold mb-4">Siap Meningkatkan Pelayanan Klinik Anda?</h3>
-        <p className="mb-6">Bergabunglah bersama kami dan rasakan kemudahan pengelolaan data kesehatan!</p>
-        <button className="bg-white text-blue-700 hover:bg-gray-100 px-6 py-3 rounded-full shadow-md">
-          Daftar Sekarang
-        </button>
-      </section>
-
-      {/* Footer */}
-      <footer className="py-6 bg-gray-900 text-gray-300 text-center">
-        © {new Date().getFullYear()} AkuSehat. All rights reserved.
-      </footer>
+      {/* Departemen */}
+      <Departemen />
+        <ProgramKerjaKami />
+      <GaleriKegiatan />
+      <Footer/>
     </div>
   );
 };
