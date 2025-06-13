@@ -9,9 +9,9 @@ const organisasi = {
   { nama: "MUHAMAD HALIMUDIN NOVA, S.Kom.", keterangan: "Badan Pertimbangan Organisasi", foto: "/foto/Muhamad Halimudin Nova.webp" },
 ],
 
-  tengah: { nama: "Ketua Umum", foto: "/img/ketua-umum.jpg" },
+  tengah: { nama: "Ketua Umum", foto: "/foto/tohir.jpg" },
   sejajarBawah: [
-    { nama: "Sekretaris Umum", foto: "/img/sekum.jpg" },
+    { nama: "Sekretaris Umum", foto: "/foto/aema.jpg" },
     { nama: "Bendahara Umum", keterangan : "Badan Pertimbangan Organisasi (BPO)",foto: "/foto/elma.webp" },
   ],
   departemen: [
