@@ -62,7 +62,7 @@ const Navbar = () => {
                 <li
                   className="px-4 py-2 hover:bg-yellow-500 cursor-pointer"
                   onClick={() => {
-                    navigate("/profile/StrukturOrganisasi");
+                    navigate("/profile/Strukturalformapsi");
                     setProfileOpen(false);
                   }}
                 >
@@ -93,7 +93,7 @@ const Navbar = () => {
           </li>
           <li>
             <button
-              onClick={() => navigate("/galeri")}
+              onClick={() => navigate("/Galeri")}
               className="hover:text-yellow-500"
             >
               Galeri

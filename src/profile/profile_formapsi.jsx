@@ -8,8 +8,10 @@ const ProfileFormapsi = () => {
     <div className="mt-24"> {/* Tambahan margin top agar tidak ketimpa navbar */}
       
       {/* Header Section */}
-      <div className="relative h-64 w-full bg-cover bg-center flex items-center justify-center" 
-           style={{ backgroundImage: "url('/img/header-bg.png')" }}>
+      <div
+          className="relative h-64 w-full bg-cover bg-center flex items-center opacity-80 justify-center"
+          style={{ backgroundImage: "url('/foto/bag.webp')" }}
+        >
         <div className="absolute inset-0 bg-black bg-opacity-50" /> {/* Overlay hitam transparan */}
         <div className="relative z-10 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-extrabold text-yellow-400">
@@ -28,7 +30,7 @@ const ProfileFormapsi = () => {
             className="w-64 h-64 mx-auto mb-6  border-yellow-400"  
             />
         
-        <h1 className="text-3xl font-bold text-center text-green-700 mb-4">
+        <h1 className="text-3xl font-bold text-center text-blue-950 mb-4">
           Profil FORMAPSI LOTIM
         </h1>
 
@@ -45,14 +47,14 @@ const ProfileFormapsi = () => {
         </section>
 
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold text-green-600 mb-2">VISI</h2>
+          <h2 className="text-2xl font-semibold text-blue-950 mb-2">VISI</h2>
           <p className="text-gray-700 leading-relaxed">
             Terwujudnya kesatuan diantara mahasiswa Kabupaten Lombok Timur serta membentuk organisasi kemahasiswaan yang dilandasi semangat kekeluargaan, kebersamaan, serta menjunjung tinggi nilai sosial dan kemanusiaan.
           </p>
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-green-600 mb-2">MISI</h2>
+          <h2 className="text-2xl font-semibold text-blue-950 mb-2">MISI</h2>
           <ul className="list-decimal list-inside text-gray-700 leading-relaxed space-y-1">
             <li>Menguatkan media aspirasi untuk melayani mahasiswa dan masyarakat secara solutif.</li>
             <li>Menghasilkan kajian dan membangun kerjasama strategis dalam upaya pemecahan masalah sosial.</li>
@@ -66,7 +68,7 @@ const ProfileFormapsi = () => {
       </div>
     </div>
     {/* CTA Section */}
-    <section className="py-16 bg-yellow-500 text-white text-center px-6">
+    <section className="py-16 bg-yellow-500 text-white text-center px-6 mt-20">
         <h3 className="text-3xl font-bold mb-4">Siap Meningkatkan Pelayanan Klinik Anda?</h3>
         <p className="mb-6">Bergabunglah bersama kami dan rasakan kemudahan pengelolaan data kesehatan!</p>
         <button className="bg-white text-blue-700 hover:bg-gray-100 px-6 py-3 rounded-full shadow-md">
