@@ -1,0 +1,61 @@
+{
+  "atas": [
+    {
+      "nama": "Pembina",
+      "keterangan": "BPO",
+      "foto": "/img/pembina.jpg"
+    },
+    {
+      "nama": "MUHAMAD HALIMUDIN NOVA, S.Kom.",
+      "keterangan": "Badan Pertimbangan Organisasi",
+      "foto": "/foto/Muhamad Halimudin Nova.webp"
+    }
+  ],
+  "tengah": {
+    "nama": "Ketua Umum",
+    "foto": "/foto/tohir.jpg"
+  },
+  "sejajarBawah": [
+    {
+      "nama": "Sekretaris Umum",
+      "foto": "/foto/aema.jpg"
+    },
+    {
+      "nama": "Bendahara Umum",
+      "keterangan": "Badan Pertimbangan Organisasi (BPO)",
+      "foto": "/foto/elma.webp"
+    }
+  ],
+  "departemen": [
+    {
+      "nama": "INDRIANI SAFITRI",
+      "kadep": "Kepala Departemen Pengembangan Sumber Daya Manusia (PSDM)",
+      "foto": "/foto/indri.webp"
+    },
+    {
+      "nama": "M. ROBI ASLAMI",
+      "kadep": "Kepala Departemen Sosial Masyarakat (SOSMAS)",
+      "foto": "/foto/robi.webp"
+    },
+    {
+      "nama": "JINAWANG ABDUL ZANI",
+      "kadep": "Kepala Departemen Kesehatan Lingkungan (KESLING)",
+      "foto": "/foto/jinawang.webp"
+    },
+    {
+      "nama": "ABIB TANTOWI",
+      "kadep": "Kepala Departemen Luar Negeri (DEPLU)",
+      "foto": "/foto/abib.webp"
+    },
+    {
+      "nama": "MILA HIDAYATUNNUPUS",
+      "kadep": "Kepala Departemen Media Komunikasi dan Informasi (MEDKOMINFO)",
+      "foto": "/img/medkominfo.jpg"
+    },
+    {
+      "nama": "RAMDANI",
+      "kadep": "Kepala Departemen Sosial Keagamaan (SKA)",
+      "foto": "/foto/ramdani.webp"
+    }
+  ]
+}

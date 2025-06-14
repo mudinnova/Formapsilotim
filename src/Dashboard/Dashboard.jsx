@@ -8,12 +8,9 @@ import Departemen from "../components/departemen1";
 import ProgramKerjaKami from "../components/programkerja";
 import GaleriKegiatan from "../components/galeri";
 import Footer from "../components/footer";
+import imageData from "../data/dashboard.json"
 
-const imageList = [
-  "/foto/kegiatan 1.jpg",
-  "/foto/kegiatan 2.jpg",
-  "/foto/kegiatan 3.jpg",
-];
+
 
 const Dashboard = () => {
   const settings = {
@@ -40,7 +37,7 @@ const Dashboard = () => {
       {/* Hero Section */}
       <section className="w-screen h-screen relative">
         <Slider {...settings}>
-          {imageList.map((img, index) => (
+          {imageData.images.map((img, index) => (
             <div key={index}>
               <img
                 src={img}

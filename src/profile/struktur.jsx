@@ -2,27 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-
-const organisasi = {
-  atas: [
-  { nama: "Pembina", keterangan: "BPO", foto: "/img/pembina.jpg" },
-  { nama: "MUHAMAD HALIMUDIN NOVA, S.Kom.", keterangan: "Badan Pertimbangan Organisasi", foto: "/foto/Muhamad Halimudin Nova.webp" },
-],
-
-  tengah: { nama: "Ketua Umum", foto: "/foto/tohir.jpg" },
-  sejajarBawah: [
-    { nama: "Sekretaris Umum", foto: "/foto/aema.jpg" },
-    { nama: "Bendahara Umum", keterangan : "Badan Pertimbangan Organisasi (BPO)",foto: "/foto/elma.webp" },
-  ],
-  departemen: [
-    { nama: "INDRIANI SAFITRI", kadep: "Kepala Departemen Pengembangan Sumber Daya Manusia (PSDM)", foto: "/foto/indri.webp" },
-    { nama: "M. ROBI ASLAMI", kadep: "Kepala Departemen Sosial Masyarakat (SOSMAS)", foto: "/foto/robi.webp" },
-    { nama: "JINAWANG ABDUL ZANI", kadep: "Kepala Departemen Kesehatan Lingkungan (KESLING)", foto: "/foto/jinawang.webp" },
-    { nama: "ABIB TANTOWI", kadep: "Kepala Departemen Luar Negeri (DEPLU)", foto: "/foto/abib.webp" },
-    { nama: "MILA HIDAYATUNNUPUS", kadep: "Kepala Departemen Media Komunikasi dan Informasi (MEDKOMINFO)", foto: "/img/medkominfo.jpg" },
-    { nama: "RAMDANI", kadep: "Kepala Departemen Sosial Keagamaan (SKA)", foto: "/foto/ramdani.webp" },
-  ],
-};
+import organisasi from "../data/struktural.json"; // ← Import dari JSON
 
 const Card = ({ title, subtitle, foto, bg = "bg-white", border = true }) => (
   <motion.div
@@ -34,12 +14,10 @@ const Card = ({ title, subtitle, foto, bg = "bg-white", border = true }) => (
   >
     {foto && (
       <img
-  src={foto}
-  alt={title}
-  className="w-80 h-80 object-contain mx-auto mb-3 rounded-md"
-/>
-
-
+        src={foto}
+        alt={title}
+        className="w-80 h-80 object-contain mx-auto mb-3 rounded-md"
+      />
     )}
     <h4 className="font-bold text-lg">{title}</h4>
     {subtitle && <p className="text-sm text-blue-950 mt-1">{subtitle}</p>}
@@ -75,7 +53,12 @@ const StrukturOrganisasi = () => {
           {/* Baris atas: Pembina & BPO */}
           <div className="flex flex-col md:flex-row justify-center gap-6 mb-10">
             {organisasi.atas.map((posisi, idx) => (
-              <Card key={idx} title={posisi.nama} subtitle={posisi.keterangan} foto={posisi.foto} />
+              <Card
+                key={idx}
+                title={posisi.nama}
+                subtitle={posisi.keterangan}
+                foto={posisi.foto}
+              />
             ))}
           </div>
 
@@ -91,7 +74,12 @@ const StrukturOrganisasi = () => {
           {/* Sekum & Bendum */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
             {organisasi.sejajarBawah.map((posisi, idx) => (
-              <Card key={idx} title={posisi.nama} foto={posisi.foto} />
+              <Card
+                key={idx}
+                title={posisi.nama}
+                subtitle={posisi.keterangan}
+                foto={posisi.foto}
+              />
             ))}
           </div>
 
@@ -112,7 +100,7 @@ const StrukturOrganisasi = () => {
           </div>
         </section>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
