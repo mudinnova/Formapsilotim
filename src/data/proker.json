@@ -1,0 +1,38 @@
+[
+  {
+    "nama": "Dies Natalis",
+    "images": "/foto/DN.jpg",
+    "deskripsi": "Dies Natalies adalah sebuah program kerja yang dimana bertujuan untuk merayakan HUT Forum Mahasiswa Pemerhati Sosial Lombok Timur."
+  },
+  {
+    "nama": "Ramdhan Cheerfull",
+    "images":"/foto/racel.webp",
+    "deskripsi": "Ramadhan Cheerfull adalah sebuah program kerja yang di handle oleh Departemen Sosial Keagamaan. Program Kerja ini di laksanakan setiap bulan ramadhan."
+  },
+  {
+    "nama": "Open Recrutiment & Malam Keakraban",
+    "images": "/foto/bag.webp",
+    "deskripsi": "Open Recruitmen & Malam Keakraban adalah sebuah program kerja yang di handle oleh Departemen Pengembangan Sumber Daya Manusia (PSDM)."
+  },
+  {
+    "nama": "Bina Desa",
+    "images": "/foto/bindes.jpg",
+    "deskripsi": "Program pengabdian masyarakat yang dilakukan langsung di desa sebagai bentuk kontribusi nyata mahasiswa."
+  },
+  {
+    "nama": "Pengobatan Gratis",
+    "images": "/foto/pegat.jpg",
+    "deskripsi": "Kegiatan pelayanan kesehatan gratis untuk masyarakat sebagai wujud kepedulian terhadap kesehatan publik."
+  },
+  {
+    "nama": "Green Community",
+    "images": "/foto/Grecom.jpg",
+    "deskripsi": "Program pelestarian lingkungan yang melibatkan masyarakat dalam kegiatan penghijauan dan edukasi lingkungan."
+  },
+  {
+    "nama": "Musyawarah Besar",
+    "images": "/foto/mubes.webp",
+    "deskripsi": "Forum resmi tahunan untuk membahas laporan pertanggungjawaban kepengurusan dan pemilihan pengurus baru."
+  }
+
+]

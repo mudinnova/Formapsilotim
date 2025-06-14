@@ -9,6 +9,7 @@ import ProgramKerjaKami from "../components/programkerja";
 import GaleriKegiatan from "../components/galeri";
 import Footer from "../components/footer";
 import imageData from "../data/dashboard.json"
+import Pendaftaran from "../components/pendaftaran";
 
 
 
@@ -103,6 +104,9 @@ const Dashboard = () => {
       <Departemen />
         <ProgramKerjaKami />
       <GaleriKegiatan />
+      <div className="shadow-lg bg-blue-50 p-6 mt-10">
+      <Pendaftaran />
+      </div>
       <Footer/>
     </div>
   );

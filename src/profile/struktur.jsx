@@ -51,7 +51,7 @@ const StrukturOrganisasi = () => {
           </h2>
 
           {/* Baris atas: Pembina & BPO */}
-          <div className="flex flex-col md:flex-row justify-center gap-6 mb-10">
+          <div className="flex flex-col md:flex-row justify-center font-body gap-6 mb-10">
             {organisasi.atas.map((posisi, idx) => (
               <Card
                 key={idx}
@@ -63,11 +63,12 @@ const StrukturOrganisasi = () => {
           </div>
 
           {/* Ketua Umum */}
-          <div className="flex justify-center mb-10">
+          <div className="flex justify-center font-heading mb-10">
             <Card
               title={organisasi.tengah.nama}
+              subtitle={organisasi.tengah.keterangan}
               foto={organisasi.tengah.foto}
-              bg="bg-blue-100"
+              bg="bg-white"
             />
           </div>
 
@@ -94,7 +95,7 @@ const StrukturOrganisasi = () => {
                 title={dept.nama}
                 subtitle={dept.kadep}
                 foto={dept.foto}
-                bg="bg-yellow-50"
+                bg="bg-white"
               />
             ))}
           </div>
