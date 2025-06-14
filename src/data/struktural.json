@@ -1,0 +1,63 @@
+{
+  "atas": [
+    {
+      "nama": "MUHAMMAD JAYADI AKBAR, S.Sos.",
+      "keterangan": "PEMBINA FORUM MAHASISWA PEMERHATI SOSIAL LOMBOK TIMUR",
+      "foto": "/foto/akbar.jpg"
+    },
+    {
+      "nama": "MUHAMAD HALIMUDIN NOVA, S.Kom.",
+      "keterangan": "Badan Pertimbangan Organisasi (BPO)",
+      "foto": "/foto/Muhamad Halimudin Nova.webp"
+    }
+  ],
+  "tengah": {
+    "nama": "AHMAD TOHIR",
+    "keterangan": "Ketua Umum Forum Mahasiswa Pemerhati Sosial Lombok Timur Tahun 2024/2025",
+    "foto": "/foto/tohir.jpg"
+  },
+  "sejajarBawah": [
+    {
+      "nama": "AEMA ANDRIANA MAOLIYA",
+      "keterangan": "Sekretaris Umum Forum Mahasiswa Pemerhati Sosial Lombok Timur Tahun 2024/2025",
+      "foto": "/foto/aema.jpg"
+    },
+    {
+      "nama": "ELMATIANA",
+      "keterangan": "Bendahara Umum Forum Mahasiswa Pemerhati Sosial Lombok Timur Tahun 2024/2025",
+      "foto": "/foto/elma.webp"
+    }
+  ],
+  "departemen": [
+    {
+      "nama": "INDRIANI SAFITRI",
+      "kadep": "Kepala Departemen Pengembangan Sumber Daya Manusia (PSDM)",
+      "foto": "/foto/indri.webp"
+    },
+    {
+      "nama": "M. ROBI ASLAMI",
+      "kadep": "Kepala Departemen Sosial Masyarakat (SOSMAS)",
+      "foto": "/foto/robi.webp"
+    },
+    {
+      "nama": "JINAWANG ABDUL ZANI",
+      "kadep": "Kepala Departemen Kesehatan Lingkungan (KESLING)",
+      "foto": "/foto/jinawang.webp"
+    },
+    {
+      "nama": "ABIB TANTOWI",
+      "kadep": "Kepala Departemen Luar Negeri (DEPLU)",
+      "foto": "/foto/abib.webp"
+    },
+    {
+      "nama": "MILA HIDAYATUNNUPUS",
+      "kadep": "Kepala Departemen Media Komunikasi dan Informasi (MEDKOMINFO)",
+      "foto": "/foto/mila.jpg"
+    },
+    {
+      "nama": "RAMDANI",
+      "kadep": "Kepala Departemen Sosial Keagamaan (SKA)",
+      "foto": "/foto/ramdani.webp"
+    }
+  ]
+}

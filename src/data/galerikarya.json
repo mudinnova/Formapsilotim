@@ -1,0 +1,99 @@
+[
+  {
+    "id": "kegiatan",
+    "title": "Galeri Kegiatan",
+    "image": "/animasi/kegiatan.webp",
+    "subcategories": [
+      {
+        "name": "Acara Sosial",
+        "items": [
+          "/galeri/kegiatan/acara1.jpg",
+          "/galeri/kegiatan/acara2.jpg"
+        ]
+      },
+      {
+        "name": "Pelatihan",
+        "items": [
+          "/galeri/kegiatan/pelatihan1.jpg",
+          "/galeri/kegiatan/pelatihan2.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "karya",
+    "title": "Galeri Karya",
+    "image": "/animasi/karyaa.webp",
+    "subcategories": [
+      {
+        "name": "JUWITA",
+        "items": [
+          "/karya/juwita/1.webp",
+          "/karya/juwita/2.webp",
+          "/karya/juwita/3.webp",
+          "/karya/juwita/4.webp",
+          "/karya/juwita/5.webp",
+          "/karya/juwita/6.webp",
+          "/karya/juwita/7.webp"
+        ]
+      },
+      {
+        "name": "RIZKI MULIAWAN",
+        "items": [
+          "/karya/rizki/10.webp",
+          "/karya/rizki/2.webp",
+          "/karya/rizki/3.webp",
+          "/karya/rizki/4.webp",
+          "/karya/rizki/5.webp",
+          "/karya/rizki/6.webp",
+          "/karya/rizki/7.webp",
+          "/karya/rizki/8.webp",
+          "/karya/rizki/9.webp",
+          "/karya/rizki/1.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "buku",
+    "title": "Galeri Buku",
+    "image": "/animasi/buku.webp",
+    "subcategories": [
+      {
+        "name": "Buku Karya Anggota",
+        "items": [
+          "/galeri/buku/karya1.jpg",
+          "/galeri/buku/karya2.jpg"
+        ]
+      },
+      {
+        "name": "Buku Referensi",
+        "items": [
+          "/galeri/buku/referensi1.jpg",
+          "/galeri/buku/referensi2.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "penghargaan",
+    "title": "Galeri Penghargaan",
+    "image": "/animasi/penghargaan.webp",
+    "subcategories": [
+      {
+        "name": "Tingkat Lokal",
+        "items": [
+          "/galeri/penghargaan/lokal1.jpg",
+          "/galeri/penghargaan/lokal2.jpg"
+        ]
+      },
+      {
+        "name": "Tingkat Nasional",
+        "items": [
+          "/galeri/penghargaan/nasional1.jpg",
+          "/galeri/penghargaan/nasional2.jpg"
+        ]
+      }
+    ]
+  }
+]

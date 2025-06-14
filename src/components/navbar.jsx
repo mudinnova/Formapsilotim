@@ -124,7 +124,7 @@ const Navbar = () => {
           </li>
           <li>
             <details>
-              <summary className="cursor-pointer">Profile</summary>
+              <summary className="cursor-pointer">Profil</summary>
               <ul className="pl-4 mt-2 space-y-1">
                 <li>
                   <button
