@@ -32,7 +32,7 @@ const StrukturOrganisasi = () => {
         {/* Header Section */}
         <div
           className="relative h-64 w-full bg-cover bg-center flex items-center opacity-80 justify-center"
-          style={{ backgroundImage: "url('/foto/bag.webp')" }}
+          style={{ backgroundImage: "url('/foto/pengurus.jpg')" }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-50" />
           <div className="relative z-10 text-center text-white">

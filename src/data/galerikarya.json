@@ -7,15 +7,13 @@
       {
         "name": "Acara Sosial",
         "items": [
-          "/galeri/kegiatan/acara1.jpg",
-          "/galeri/kegiatan/acara2.jpg"
+          
         ]
       },
       {
         "name": "Pelatihan",
         "items": [
-          "/galeri/kegiatan/pelatihan1.jpg",
-          "/galeri/kegiatan/pelatihan2.jpg"
+          
         ]
       }
     ]
@@ -62,15 +60,13 @@
       {
         "name": "Buku Karya Anggota",
         "items": [
-          "/galeri/buku/karya1.jpg",
-          "/galeri/buku/karya2.jpg"
+          
         ]
       },
       {
         "name": "Buku Referensi",
         "items": [
-          "/galeri/buku/referensi1.jpg",
-          "/galeri/buku/referensi2.jpg"
+         
         ]
       }
     ]
@@ -83,15 +79,13 @@
       {
         "name": "Tingkat Lokal",
         "items": [
-          "/galeri/penghargaan/lokal1.jpg",
-          "/galeri/penghargaan/lokal2.jpg"
+        
         ]
       },
       {
         "name": "Tingkat Nasional",
         "items": [
-          "/galeri/penghargaan/nasional1.jpg",
-          "/galeri/penghargaan/nasional2.jpg"
+          
         ]
       }
     ]

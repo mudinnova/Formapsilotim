@@ -5,7 +5,19 @@ import Footer from "../components/footer";
 
 const SosmasPage = () => {
   return (
+    
     <div className="font-sans text-gray-950 bg-white">
+        <div
+        className="relative h-64 w-full bg-cover opacity-80 bg-center flex items-center justify-center"
+        style={{ backgroundImage: "url('/foto/bag.webp')" }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div className="relative z-10 text-center text-white">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-yellow-400">GALERI</h1>
+          <p className="text-lg mt-2">Dokumentasi Kegiatan, Karya, dan Prestasi Kami</p>
+          <div className="w-24 h-1 bg-white mx-auto mt-3" />
+        </div>
+      </div>
       <section className="bg-green-50 py-16 px-6 text-center">
         <h1 className="text-4xl font-bold font-heading text-cyan-900 mb-4">Departemen Sosial & Keagamaan (SOSMAS)</h1>
         <p className="max-w-3xl font-body mx-auto text-lg text-gray-700">
