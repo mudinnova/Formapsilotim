@@ -83,14 +83,14 @@ const Navbar = () => {
               Departemen
             </button>
           </li>
-          <li>
+          {/* <li>
             <button
               onClick={() => navigate("/program-kerja")}
               className="hover:text-yellow-500"
             >
               Program Kerja
             </button>
-          </li>
+          </li> */}
           <li>
             <button
               onClick={() => navigate("/Galeri")}

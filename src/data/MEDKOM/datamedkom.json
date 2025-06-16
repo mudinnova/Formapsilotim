@@ -1,0 +1,19 @@
+{
+    "medkomImage":[
+        {
+            "nama": "Ayu", "foto": "/anggota/ayu.jpg"
+        },
+        {
+            "nama": "Raka","foto": "/anggota/raka.jpg"
+        },
+        {
+            "nama": "Intan","foto": "/anggota/intan.jpg"
+        },
+        {
+            "nama": "Bagus","foto": "/anggota/bagus.jpg"
+        },
+        {
+            "nama": "Lina","foto": "/anggota/lina.jpg"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+import React from "react";
+import { motion } from "framer-motion";
+import medkomImage from "../data/MEDKOM/datamedkom.json";
+import Footer from "../components/footer";
+
+const MedkomPage = () => {
+  return (
+    <div className="font-sans text-gray-950 bg-white">
+      <section className="bg-sky-50 py-16 px-6 text-center">
+        <h1 className="text-4xl font-bold font-heading text-sky-900 mb-4">Departemen Media dan Komunikasi (MEDKOM)</h1>
+        <p className="max-w-3xl font-body mx-auto text-lg text-gray-700">
+          Departemen Media dan Komunikasi bertanggung jawab dalam menyampaikan informasi,
+          dokumentasi kegiatan, serta pengelolaan media sosial organisasi secara profesional dan kreatif.
+        </p>
+      </section>
+
+      <section className="py-12 px-6 max-w-4xl mx-auto">
+        <h2 className="text-2xl font-semibold font-heading text-sky-900 mb-4">Tanggung Jawab</h2>
+        <ul className="list-disc pl-5 text-gray-700 font-body space-y-2">
+          <li>Mengelola konten media sosial organisasi (Instagram, YouTube, dan lainnya).</li>
+          <li>Mendokumentasikan kegiatan organisasi dalam bentuk foto dan video.</li>
+          <li>Mendesain publikasi informasi kegiatan internal dan eksternal.</li>
+          <li>Menjaga branding visual dan citra positif organisasi.</li>
+        </ul>
+
+        <h2 className="text-2xl font-semibold font-heading text-sky-900 mt-10 mb-4">Program Kerja</h2>
+        <ul className="list-disc pl-5 text-gray-700 font-body space-y-2">
+          <li>Weekly Design Post & Info Kegiatan</li>
+          <li>Pelatihan Desain dan Editing untuk anggota</li>
+          <li>Pembuatan Konten Video Dokumenter</li>
+          <li>Live Report & Siaran Media</li>
+        </ul>
+      </section>
+
+      <section className="py-12 px-6 bg-gray-100">
+        <h2 className="text-2xl font-semibold font-heading text-sky-900 mb-6 text-center">Anggota MEDKOM</h2>
+        <motion.div
+          className="flex gap-6 overflow-x-auto scrollbar-hide px-4 py-2"
+          initial={{ x: 100 }}
+          animate={{ x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          {medkomImage.medkomImage.map((anggota, index) => (
+            <motion.div
+              key={index}
+              className="min-w-[200px] bg-white rounded-xl shadow-lg p-4 text-center"
+              whileHover={{ scale: 1.05 }}
+            >
+              <img
+                src={anggota.foto}
+                alt={anggota.nama}
+                className="w-32 h-32 mx-auto rounded-full object-cover mb-2"
+              />
+              <h3 className="text-lg font-semibold font-heading">{anggota.nama}</h3>
+              <p className="text-sm font-body text-gray-500">Anggota MEDKOM</p>
+            </motion.div>
+          ))}
+        </motion.div>
+      </section>
+      <Footer />
+    </div>
+  );
+};
+
+export default MedkomPage;

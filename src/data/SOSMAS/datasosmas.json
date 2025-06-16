@@ -1,0 +1,20 @@
+{
+  "sosmasImage": [
+    {
+      "nama": "Hasanah",
+      "foto": "/anggota/hasanah.jpg"
+    },
+    {
+      "nama": "Rahmat",
+      "foto": "/anggota/rahmat.jpg"
+    },
+    {
+      "nama": "Laila",
+      "foto": "/anggota/laila.jpg"
+    },
+    {
+      "nama": "Budi",
+      "foto": "/anggota/budi.jpg"
+    }
+  ]
+}
