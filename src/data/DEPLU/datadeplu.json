@@ -1,20 +1,12 @@
 {
   "depluImage": [
     {
-      "nama": "Amira Lestari",
+      "nama": "Joe Tara",
       "foto": "/anggota/amira.jpg"
     },
     {
-      "nama": "Rizky Ananda",
+      "nama": "Sulistyana",
       "foto": "/anggota/rizky.jpg"
-    },
-    {
-      "nama": "Zahra Fauziah",
-      "foto": "/anggota/zahra.jpg"
-    },
-    {
-      "nama": "Ilham Putra",
-      "foto": "/anggota/ilham.jpg"
     }
   ]
 }

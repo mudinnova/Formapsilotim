@@ -1,19 +1,16 @@
 {
     "medkomImage":[
         {
-            "nama": "Ayu", "foto": "/anggota/ayu.jpg"
+            "nama": "WIMA DWIKA", "foto": "/anggota/ayu.jpg"
         },
         {
-            "nama": "Raka","foto": "/anggota/raka.jpg"
+            "nama": "WAFIQ","foto": "/anggota/raka.jpg"
         },
         {
-            "nama": "Intan","foto": "/anggota/intan.jpg"
+            "nama": "SUCI AMELIA","foto": "/anggota/intan.jpg"
         },
         {
-            "nama": "Bagus","foto": "/anggota/bagus.jpg"
-        },
-        {
-            "nama": "Lina","foto": "/anggota/lina.jpg"
+            "nama": "HERI","foto": "/anggota/bagus.jpg"
         }
     ]
 }

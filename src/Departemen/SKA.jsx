@@ -8,7 +8,7 @@ const SkaPage = () => {
     <div className="font-sans text-gray-950 bg-white">
         <div
         className="relative h-64 w-full bg-cover opacity-80 bg-center flex items-center justify-center"
-        style={{ backgroundImage: "url('/foto/bag.webp')" }}
+        style={{ backgroundImage: "url('/foto/ska.jpg')" }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         <div className="relative z-10 text-center text-white">
