@@ -1,19 +1,16 @@
 {
     "skaImage":[
         {
-            "nama": "Ayu", "foto": "/anggota/ayu.jpg"
+            "nama": "Nisa' Ussolihat", "foto": "/SKA/ica.jpg"
         },
         {
-            "nama": "Raka","foto": "/anggota/raka.jpg"
+            "nama": "Laelatul Aini","foto": "/SKA/ela.jpg"
         },
         {
-            "nama": "Intan","foto": "/anggota/intan.jpg"
+            "nama": "Muhammad Khairul Anam","foto": "/SKA/anam.jpg"
         },
         {
-            "nama": "Bagus","foto": "/anggota/bagus.jpg"
-        },
-        {
-            "nama": "Lina","foto": "/anggota/lina.jpg"
+            "nama": "Susana","foto": "/SKA/susan.jpg"
         }
     ]
 }

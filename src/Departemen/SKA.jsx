@@ -35,10 +35,9 @@ const SkaPage = () => {
 
         <h2 className="text-2xl font-semibold font-heading text-yellow-600 mt-10 mb-4">Program Kerja</h2>
         <ul className="list-disc pl-5 text-gray-700 font-body space-y-2">
-          <li>Pengajian Rutin dan Kajian Keislaman</li>
-          <li>Safari Ramadhan & Buka Puasa Bersama</li>
-          <li>Bakti Sosial dan Donasi Kemanusiaan</li>
-          <li>Peringatan Hari Besar Islam (PHBI)</li>
+          <li>Sapa Kader</li>
+          <li>Santunan Anak Yatim</li>
+          <li>Ramadhan Cheerfull</li>
         </ul>
       </section>
 
@@ -59,7 +58,7 @@ const SkaPage = () => {
               <img
                 src={anggota.foto}
                 alt={anggota.nama}
-                className="w-32 h-32 mx-auto rounded-full object-cover mb-2"
+                className="w-32 h-32 mx-auto rounded-xl object-cover mb-2"
               />
               <h3 className="text-lg font-semibold font-heading">{anggota.nama}</h3>
               <p className="text-sm font-body text-gray-500">Anggota SKA</p>

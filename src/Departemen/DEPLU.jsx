@@ -43,10 +43,7 @@ const DepluPage = () => {
           Program Kerja
         </h2>
         <ul className="list-disc pl-5 text-gray-700 font-body space-y-2">
-          <li>Forum Eksternal dan Kemitraan</li>
-          <li>Undangan dan Delegasi Kegiatan Regional/Nasional</li>
-          <li>Kolaborasi Event antar Organisasi</li>
-          <li>Program Pengenalan Lembaga Eksternal</li>
+          <li>Sowan Formapsi</li>
         </ul>
       </section>
 
@@ -63,13 +60,13 @@ const DepluPage = () => {
           {depluImage.depluImage.map((anggota, index) => (
             <motion.div
               key={index}
-              className="min-w-[200px] bg-white rounded-xl shadow-lg p-4 text-center"
+              className="min-w-[200px] bg-white rounded-xl  shadow-lg p-4 text-center"
               whileHover={{ scale: 1.05 }}
             >
               <img
                 src={anggota.foto}
                 alt={anggota.nama}
-                className="w-32 h-32 mx-auto rounded-full object-cover mb-2"
+                className="w-32 h-32 mx-auto rounded-xl object-cover mb-2"
               />
               <h3 className="text-lg font-semibold font-heading">{anggota.nama}</h3>
               <p className="text-sm font-body text-gray-500">Anggota DEPLU</p>

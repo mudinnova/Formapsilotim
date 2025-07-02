@@ -1,12 +1,20 @@
 {
   "depluImage": [
     {
-      "nama": "Joe Tara",
-      "foto": "/anggota/amira.jpg"
+      "nama": "Sulistyana",
+      "foto": "/DEPLU/sulis.jpg"
     },
     {
-      "nama": "Sulistyana",
-      "foto": "/anggota/rizky.jpg"
+      "nama": "Joe Tara Apriliandi",
+      "foto": "/DEPLU/joe.jpg"
+    },
+    {
+      "nama": "Siti Ratna Evasari",
+      "foto": "/DEPLU/eva.jpg"
+    },
+    {
+      "nama": "Dina Medina Febriyanti",
+      "foto": "/DEPLU/dina.jpg"
     }
   ]
 }
