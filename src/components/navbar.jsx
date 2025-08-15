@@ -88,7 +88,7 @@ const Navbar = () => {
               onClick={() => navigate("/program-kerja")}
               className="hover:text-yellow-500"
             >
-              Program Kerja
+              Berita 
             </button>
           </li>
           <li>
@@ -124,7 +124,7 @@ const Navbar = () => {
           </li>
           <li>
             <details>
-              <summary className="cursor-pointer">Profile</summary>
+              <summary className="cursor-pointer">Profil</summary>
               <ul className="pl-4 mt-2 space-y-1">
                 <li>
                   <button
@@ -159,6 +159,14 @@ const Navbar = () => {
               }}
             >
               Departemen
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => navigate("/program-kerja")}
+              className="hover:text-yellow-500"
+            >
+              Berita
             </button>
           </li>
           <li>

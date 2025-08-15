@@ -8,36 +8,42 @@ const DepartemenKami = () => {
     {
       nama: 'PENGEMBANGAN SUMBER DAYA MANUSIA (PSDM)',
       gambar: '/animasi/psdm.webp',
+      path : '/departemen/PSDM',
       deskripsi:
         'Departemen PSDM (Pengembangan Sumber Daya Manusia) berperan dalam meningkatkan kapasitas dan kualitas anggota melalui pelatihan, pembinaan, dan pengembangan soft skill.',
     },
     {
       nama: 'SOSIAL MASYARAKAT (SOSMAS)',
       gambar: '/animasi/sosmas.webp',
+      path : '/departemen/SOSMAS',
       deskripsi:
         'Departemen SOSMAS (Sosial Masyarakat) fokus pada kegiatan sosial dan pengabdian kepada masyarakat, seperti bakti sosial, edukasi, dan program berbasis komunitas.',
     },
     {
       nama: 'KESEHATAN LINGKUNGAN (KESLING)',
       gambar: '/animasi/kesling.webp',
+      path : '/departemen/KESLING',
       deskripsi:
         'Departemen KESLING (Kesehatan Lingkungan) mengedukasi pentingnya hidup bersih dan sehat serta mengadakan program pelestarian lingkungan.',
     },
     {
       nama: 'DEPARTEMEN LUAR NEGERI (DEPLU)',
       gambar: '/animasi/deplu.webp',
+      path : '/departemen/DEPLU',
       deskripsi:
         'Departemen DEPLU (Luar Negeri) bertugas menjalin kerja sama eksternal dengan organisasi atau instansi lain serta memperluas relasi dan jaringan organisasi.',
     },
     {
       nama: 'MEDIA KOMUNIKASI DAN INFORMASI (MEDKOMINFO)',
       gambar: '/animasi/medkom.webp',
+      path : '/departemen/MEDKOMINFO',
       deskripsi:
         'Departemen MEDKOMINFO (Media Komunikasi dan Informasi) bertanggung jawab dalam publikasi kegiatan, desain grafis, pengelolaan media sosial, dan dokumentasi.',
     },
     {
       nama: 'SOSIAL KEAGAMAAN (SKA)',
       gambar: '/animasi/ska.webp',
+      path : '/departemen/SKA',
       deskripsi:
         'Departemen SKA (Sosial Keagamaan) berfokus pada pengembangan nilai-nilai spiritual, moral, serta pelaksanaan kegiatan keagamaan dan dakwah.',
     },
@@ -85,7 +91,9 @@ const DepartemenKami = () => {
               <div className="flex-1">
                 <h3 className="text-xl font-heading text-blue-950 font-bold mb-2">{dept.nama}</h3>
                 <p className="text-gray-700 mb-4 text-sm font-sans text-justify">{dept.deskripsi}</p>
-                <button className="bg-blue-600 text-white hover:bg-blue-500 px-5 py-2 rounded-full shadow-md">
+                <button 
+                  onClick ={() => window.location.href = dept.path} // Pindah ke halaman masing-masing
+                  className="bg-blue-600 text-white hover:bg-blue-500 px-5 py-2 rounded-full shadow-md">
                   Selengkapnya
                 </button>
               </div>

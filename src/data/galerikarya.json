@@ -1,0 +1,93 @@
+[
+  {
+    "id": "kegiatan",
+    "title": "Galeri Kegiatan",
+    "image": "/animasi/kegiatan.webp",
+    "subcategories": [
+      {
+        "name": "Acara Sosial",
+        "items": [
+          
+        ]
+      },
+      {
+        "name": "Pelatihan",
+        "items": [
+          
+        ]
+      }
+    ]
+  },
+  {
+    "id": "karya",
+    "title": "Galeri Karya",
+    "image": "/animasi/karyaa.webp",
+    "subcategories": [
+      {
+        "name": "JUWITA",
+        "items": [
+          "/karya/juwita/1.webp",
+          "/karya/juwita/2.webp",
+          "/karya/juwita/3.webp",
+          "/karya/juwita/4.webp",
+          "/karya/juwita/5.webp",
+          "/karya/juwita/6.webp",
+          "/karya/juwita/7.webp"
+        ]
+      },
+      {
+        "name": "RIZKI MULIAWAN",
+        "items": [
+          "/karya/rizki/10.webp",
+          "/karya/rizki/2.webp",
+          "/karya/rizki/3.webp",
+          "/karya/rizki/4.webp",
+          "/karya/rizki/5.webp",
+          "/karya/rizki/6.webp",
+          "/karya/rizki/7.webp",
+          "/karya/rizki/8.webp",
+          "/karya/rizki/9.webp",
+          "/karya/rizki/1.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "buku",
+    "title": "Galeri Buku",
+    "image": "/animasi/buku.webp",
+    "subcategories": [
+      {
+        "name": "Buku Karya Anggota",
+        "items": [
+          
+        ]
+      },
+      {
+        "name": "Buku Referensi",
+        "items": [
+         
+        ]
+      }
+    ]
+  },
+  {
+    "id": "penghargaan",
+    "title": "Galeri Penghargaan",
+    "image": "/animasi/penghargaan.webp",
+    "subcategories": [
+      {
+        "name": "Tingkat Lokal",
+        "items": [
+        
+        ]
+      },
+      {
+        "name": "Tingkat Nasional",
+        "items": [
+          
+        ]
+      }
+    ]
+  }
+]

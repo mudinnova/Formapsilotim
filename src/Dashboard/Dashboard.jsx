@@ -8,14 +8,13 @@ import Departemen from "../components/departemen1";
 import ProgramKerjaKami from "../components/programkerja";
 import GaleriKegiatan from "../components/galeri";
 import Footer from "../components/footer";
-
-const imageList = [
-  "/foto/kegiatan 1.jpg",
-  "/foto/kegiatan 2.jpg",
-  "/foto/kegiatan 3.jpg",
-];
+import imageData from "../data/dashboard.json";
+import Pendaftaran from "../components/pendaftaran";
+import { useNavigate } from "react-router-dom"; // ✅ hanya ini yang diperlukan
 
 const Dashboard = () => {
+  const navigate = useNavigate(); // ✅ benar
+
   const settings = {
     dots: true,
     infinite: true,
@@ -32,15 +31,14 @@ const Dashboard = () => {
     featureRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
-
-
   return (
     <div className="font-sans text-gray-800 overflow-hidden">
       <Navbar />
+
       {/* Hero Section */}
       <section className="w-screen h-screen relative">
         <Slider {...settings}>
-          {imageList.map((img, index) => (
+          {imageData.images.map((img, index) => (
             <div key={index}>
               <img
                 src={img}
@@ -76,9 +74,8 @@ const Dashboard = () => {
 
       {/* Features Section */}
       <section ref={featureRef} className="py-20 px-6 bg-white">
-        <h2 className="text-3xl font-semibold text-center mb-12">Tentang Formapsi Lotim</h2>
+        <h2 className=" text-4xl font-semibold text-center mb-12">Tentang Formapsi Lotim</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto items-center">
-          {/* Logo */}
           <div className="flex justify-center">
             <img
               src="/LOGO/logo.png"
@@ -87,14 +84,15 @@ const Dashboard = () => {
             />
           </div>
 
-          {/* Deskripsi */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Forum Mahasiswa Pemerhati Sosial Lombok Timur</h3>
+            <h3 className="text-xl font-bold mb-4">
+              Forum Mahasiswa Pemerhati Sosial Lombok Timur
+            </h3>
             <p className="text-gray-700 text-justify line-clamp-6">
               Forum Mahasiswa Pemerhati Sosial Lombok Timur (FORMAPSI LOTIM) adalah salah satu organisasi kemahasiswaan yang bergerak di bidang sosial dan kemanusiaan. Forum ini lahir atas dasar kepedulian mahasiswa Lombok Timur terhadap masalah sosial di masyarakat.
             </p>
             <button
-            //   onClick={() =>}
+              onClick={() => navigate("/profile/tentangformapsi")} //  diperbaiki
               className="mt-4 bg-blue-600 text-white hover:bg-blue-500 px-5 py-2 rounded-full shadow-md"
             >
               Selengkapnya
@@ -102,11 +100,17 @@ const Dashboard = () => {
           </div>
         </div>
       </section>
+
       {/* Departemen */}
       <Departemen />
-        <ProgramKerjaKami />
+      <ProgramKerjaKami />
       <GaleriKegiatan />
-      <Footer/>
+
+      <div className="shadow-lg bg-blue-50 p-6 mt-10">
+        <Pendaftaran />
+      </div>
+
+      <Footer />
     </div>
   );
 };
