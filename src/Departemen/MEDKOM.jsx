@@ -36,10 +36,9 @@ const MedkomPage = () => {
 
         <h2 className="text-2xl font-semibold font-heading text-sky-900 mt-10 mb-4">Program Kerja</h2>
         <ul className="list-disc pl-5 text-gray-700 font-body space-y-2">
-          <li>Weekly Design Post & Info Kegiatan</li>
-          <li>Pelatihan Desain dan Editing untuk anggota</li>
-          <li>Pembuatan Konten Video Dokumenter</li>
-          <li>Live Report & Siaran Media</li>
+          <li>Mengelola Media Sosial + Karya Formapsi</li>
+          <li>Pelatihan Desain dan Lomba</li>
+          <li>Lencana Dedikasi</li>
         </ul>
       </section>
 

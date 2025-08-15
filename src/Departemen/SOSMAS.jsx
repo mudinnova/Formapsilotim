@@ -36,10 +36,9 @@ const SosmasPage = () => {
 
         <h2 className="text-2xl font-semibold font-heading text-cyan-950 mt-10 mb-4">Program Kerja</h2>
         <ul className="list-disc pl-5 text-gray-700 font-body space-y-2">
-          <li>Bakti Sosial & Donasi Ramadhan</li>
-          <li>Peringatan Hari Besar Islam (PHBI)</li>
-          <li>Ngaji Bareng & Kajian Keislaman Rutin</li>
-          <li>Program Berbagi Jumat Berkah</li>
+          <li>Bina Desa</li>
+          <li>Tanggap bencana</li>
+          <li>Sosialisasi Pernikahan Dini & Anti Narkoba</li>
         </ul>
       </section>
 

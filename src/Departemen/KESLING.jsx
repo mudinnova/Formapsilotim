@@ -33,16 +33,15 @@ const KeslingPage = () => {
         <ul className="list-disc pl-5 text-gray-700 font-body space-y-2">
           <li>Mengkampanyekan kebersihan dan kesehatan lingkungan.</li>
           <li>Mengadakan kegiatan kebersihan rutin dan inspeksi lingkungan.</li>
-          <li>Mengedukasi anggota tentang PHBS (Perilaku Hidup Bersih dan Sehat).</li>
+          <li>Melakukan penghijauan di tempat yang jarang ada pepohonan.</li>
           <li>Berkolaborasi dengan pihak terkait dalam kegiatan kesehatan masyarakat.</li>
         </ul>
 
         <h2 className="text-2xl font-semibold font-heading text-green-900 mt-10 mb-4">Program Kerja</h2>
         <ul className="list-disc pl-5 text-gray-700 font-body space-y-2">
-          <li>Gerakan Jumat Bersih</li>
-          <li>Kampanye Hidup Sehat</li>
-          <li>Workshop Kesehatan & Lingkungan</li>
-          <li>Pemeriksaan Kesehatan Dasar</li>
+          <li>Clean Up</li>
+          <li>Greening</li>
+          <li>Pengobatan Gratis</li>
         </ul>
       </section>
 

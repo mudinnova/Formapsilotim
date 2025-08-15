@@ -74,7 +74,7 @@ const Dashboard = () => {
 
       {/* Features Section */}
       <section ref={featureRef} className="py-20 px-6 bg-white">
-        <h2 className="text-3xl font-semibold text-center mb-12">Tentang Formapsi Lotim</h2>
+        <h2 className=" text-4xl font-semibold text-center mb-12">Tentang Formapsi Lotim</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto items-center">
           <div className="flex justify-center">
             <img

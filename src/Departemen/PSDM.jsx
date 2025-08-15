@@ -14,8 +14,8 @@ const PsdmPage = () => {
       >
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         <div className="relative z-10 text-center text-white">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-yellow-400">GALERI</h1>
-          <p className="text-lg mt-2">Dokumentasi Kegiatan, Karya, dan Prestasi Kami</p>
+          <h1 className="text-4xl md:text-5xl font-extrabold text-yellow-400">PENGEMBANGAN SUMBER DAYA MANUSIA</h1>
+          <p className="text-lg mt-2">Kapasitas,Kualitas, dan Potensi</p>
           <div className="w-24 h-1 bg-white mx-auto mt-3" />
         </div>
       </div>
@@ -38,10 +38,10 @@ const PsdmPage = () => {
 
         <h2 className="text-2xl font-semibold font-heading text-indigo-950 mt-10 mb-4">Program Kerja</h2>
         <ul className="list-disc pl-5 text-gray-700 font-body space-y-2">
-          <li>Training Dasar Organisasi (TDO)</li>
-          <li>Pelatihan Soft Skill: Public Speaking & Leadership</li>
-          <li>Kajian Rutin Pengembangan Diri</li>
-          <li>Evaluasi dan Monitoring Kinerja Anggota</li>
+          <li>Open Recruitmen & Malam Keakraban</li>
+          <li>Piknik Awal Bulan</li>
+          <li>Public Speaking Class</li>
+          <li>Formapsi Competition</li>
         </ul>
       </section>
 
@@ -62,7 +62,7 @@ const PsdmPage = () => {
               <img
                 src={anggota.foto}
                 alt={anggota.nama}
-                className="w-32 h-32 mx-auto rounded-full object-cover mb-2"
+                className="w-32 h-32 mx-auto rounded-sm object-cover mb-2"
               />
               <h3 className="text-lg font-semibold font-heading">{anggota.nama}</h3>
               <p className="text-sm font-body text-gray-500">Anggota PSDM</p>

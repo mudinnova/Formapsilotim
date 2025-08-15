@@ -83,14 +83,14 @@ const Navbar = () => {
               Departemen
             </button>
           </li>
-          {/* <li>
+          <li>
             <button
               onClick={() => navigate("/program-kerja")}
               className="hover:text-yellow-500"
             >
-              Program Kerja
+              Berita 
             </button>
-          </li> */}
+          </li>
           <li>
             <button
               onClick={() => navigate("/Galeri")}
@@ -159,6 +159,14 @@ const Navbar = () => {
               }}
             >
               Departemen
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => navigate("/program-kerja")}
+              className="hover:text-yellow-500"
+            >
+              Berita
             </button>
           </li>
           <li>
